@@ -11,25 +11,13 @@
 <body>
   <header>
     <h1>Street Tacos</h1>
-    <div class="logo">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="60" height="60"
-        viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path d="M4 3h8l-1 9h-6z" />
-        <path d="M7 18h2v3h-2z" />
-        <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
-        <path d="M20 15v6h-1v-3" />
-        <line x1="8" y1="12" x2="8" y2="18" />
-      </svg>
-    </div>
   </header>
 
   <main>
 
     <section>
       <h2>Actions</h2>
-      <menu id="menu">
+      <menu id="action-menu">
         <li>
           <button id="save" class="action">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="40" height="40"
@@ -45,44 +33,44 @@
         </li>
         <li>
           <button id="share" class="action">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share" width="40" height="40"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <circle cx="6" cy="12" r="3" />
-            <circle cx="18" cy="6" r="3" />
-            <circle cx="18" cy="18" r="3" />
-            <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
-            <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
-          </svg>
-          Share
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share" width="40" height="40"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <circle cx="18" cy="18" r="3" />
+              <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+              <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+            </svg>
+            Share
           </button>
         </li>
         <li>
           <button id="print" class="action" onclick="window.open('', 'Print', 'width=600,height=400')">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="40" height="40"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
-            <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
-            <rect x="7" y="13" width="10" height="8" rx="2" />
-          </svg>
-          Print
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="40" height="40"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
+              <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
+              <rect x="7" y="13" width="10" height="8" rx="2" />
+            </svg>
+            Print
           </button>
         </li>
         <li>
           <button id="recipe" class="action">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-symlink" width="40" height="40"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M4 21v-4a3 3 0 0 1 3 -3h5" />
-            <path d="M9 17l3 -3l-3 -3" />
-            <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-            <path d="M5 11v-6a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-9.5" />
-          </svg>
-          Jump to Recipe
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-symlink" width="40"
+              height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 21v-4a3 3 0 0 1 3 -3h5" />
+              <path d="M9 17l3 -3l-3 -3" />
+              <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+              <path d="M5 11v-6a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-9.5" />
+            </svg>
+            Jump to Recipe
           </button>
         </li>
       </menu>
@@ -102,16 +90,16 @@
       <dl>
         <dt>Prep Time</dt>
         <dd>10 minutes</dd>
-        
+
         <dt>Cook Time</dt>
         <dd>10 minutes</dd>
-        
+
         <dt>Total Time</dt>
         <dd>20 minutes</dd>
-        
+
         <dt>Author</dt>
         <dd>Taco Cheesington</dd>
-        
+
         <dt>Servings</dt>
         <dd>6 Tacos</dd>
       </dl>
@@ -251,7 +239,7 @@
               alt="Image of guacamole in a white bowl, surrounded by fresh veggies and tortilla chips.">
           </dt>
           <dd class="dish-info">
-            <dd class="dish-info">
+          <dd class="dish-info">
             <h3>GUACAMOLE</h3>
             <p>Fresh and healthy</p>
             <p>Rating: </p>
@@ -363,7 +351,7 @@
       </button>
 
       <ul id="nav-menu">
-        <li>
+        <li id="home">
           <a href="#home">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="60"
               height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
@@ -429,16 +417,18 @@
             <span>Beverages</span>
           </a>
         </li>
-
         <li id="avatar">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40"
-            height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <circle cx="12" cy="12" r="9" />
-            <circle cx="12" cy="10" r="3" />
-            <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
-          </svg>
+          <a href="#sign-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40"
+              height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <circle cx="12" cy="12" r="9" />
+              <circle cx="12" cy="10" r="3" />
+              <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+            </svg>
+            <span>SIGN IN/UP</span>
+          </a>
         </li>
       </ul>
     </nav>
