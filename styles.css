@@ -1,0 +1,32 @@
+/*IMPORTED FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+/*
+Bebas Neue - Reg 400 
+- H1: 40px
+- H2: 30px
+- H3: 25px
+- NAV A: 20px
+- NAV SPAN: 20px
+- MENU LI: 20px
+- #SOCIAL LI: 20px
+- FOOTER: 20px 
+
+Montserrat - Reg 400
+- P: 16px
+- DD: 16px
+- LI: 16px
+- NAV: 16px
+- INPUT: 16px
+
+Montserrat - Bold 700
+- DT: 16px
+*/
+
+/*VARIABLES*/
+:root {
+  --black: #0D0D0D;
+  --white: #F2F2F2;
+  --aqua: #7ABFBF;
+  --mint: rgba(122, 191, 191, .5);
+  --orange: #EB5428;
+}
