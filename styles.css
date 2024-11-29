@@ -1,6 +1,6 @@
 /*IMPORTED FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
-/*
+/* NOTES
 Bebas Neue - Reg 400 
 - H1: 40px
 - H2: 30px
@@ -20,6 +20,13 @@ Montserrat - Reg 400
 
 Montserrat - Bold 700
 - DT: 16px
+
+BREAKPOINTS - use %
+- Small: 414
+- Med: 768
+- Large: 1280
+
+
 */
 
 /*VARIABLES*/
