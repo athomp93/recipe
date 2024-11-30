@@ -278,19 +278,23 @@ h3 {
 #details dl {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 10px;
-  padding-left: 15px;
+  margin: 15px 0;
+}
+
+#details dt,
+#details dd {
+  margin: 0;
 }
 
 #details dt {
+  flex-basis: 22%;
   text-align: left;
-  font-weight: bold;
+  margin-left: 15px;
 }
 
 #details dd {
-  text-align: left;
-  padding-right: 50px;
+  flex-basis: calc(70% - 10px);
 }
 
 
