@@ -1,3 +1,6 @@
+/*IMPORTED FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
 /* NOTES
 Bebas Neue - Reg 400 
 - H1: 40px
@@ -24,6 +27,8 @@ BREAKPOINTS - use %
 - Med: 768
 - Large: 1280
 */
+
+
 
 /* CSS RESET */
 html, body, div, span, applet, object, iframe,
@@ -75,9 +80,6 @@ table {
   border-spacing: 0;
 }
 
-/*IMPORTED FONTS*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
-
 /*VARIABLES*/
 :root {
   --black: #0D0D0D;
@@ -89,6 +91,28 @@ table {
 }
 
 /*GLOBAL STYLES*/
+
+h1, h2, h3, nav a, nav span, menu li, #social li, footer {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+}
+
+nav a, nav span, menu li, #social li, footer {
+  font-size: 20px;
+}
+
+p, dd, li, nav, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+dt {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
 body {
   background-color: var(--platinum);
 }
@@ -96,6 +120,22 @@ body {
 h1 {
   position: relative;
   top: 120px;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+#street-tacos img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #main-nav h2 {
@@ -122,12 +162,12 @@ h1 {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-44.5%);
   justify-content: center;
   background-color: var(--orange);
   margin: 0;
-  padding: .5em 4em;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  padding: .5em 5em .5em 5.2em;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
 }
 
 .nav-toggle {
@@ -138,8 +178,9 @@ h1 {
   border: none;
   display: flex;
   flex-direction: column;
-  padding: .75em 1.95em;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  padding: .5em 2.2em;;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
 }
 
 #avatar {
@@ -149,8 +190,28 @@ h1 {
   background-color: var(--white);
   flex-direction: column;
   align-items: center;
-  padding: .63em .26em;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  padding: .62em .5em;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+#action-items h2 {
+  display: none;
+}
+
+#action-items {
+  margin-top: 200px;
+}
+
+#action-menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-bottom: 10px;
+  color: var(--orange);
+}
+
+.action {
+  border: none;
 }
 
 
