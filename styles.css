@@ -240,10 +240,57 @@ h3 {
   list-style-type: none;
   padding-bottom: 10px;
   color: var(--orange);
+  justify-content: space-evenly;
+  transform: translateX(19px);
 }
 
 .action {
   border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+#action-menu .action {
+  color: var(--orange);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px; 
+  align-items: center;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.intro-text p {
+  margin-bottom: 15px;
+  line-height: 1.3em;
+}
+
+#details h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#details dl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+#details dt {
+  text-align: left;
+  font-weight: bold;
+}
+
+#details dd {
+  text-align: left;
+  padding-right: 50px;
 }
 
 
