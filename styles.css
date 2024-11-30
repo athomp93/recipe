@@ -147,11 +147,12 @@ body {
   cursor: pointer;
 }
 
-
 h1 {
   position: relative;
-  top: 220px;
+  top: 185px;
   font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
