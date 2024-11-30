@@ -297,7 +297,51 @@ h3 {
   flex-basis: calc(70% - 10px);
 }
 
+#ingredients h2 {
+  display: flex;
+  justify-content: center;
+}
 
+#ingredients ul {
+  margin: 0 0 15px 25px;
+  line-height: 2em;
+  list-style-type: square;
+}
+
+#directions h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#directions ol {
+  list-style-type: decimal;
+  margin: 25px;
+}
+
+#directions li {
+  margin-bottom: 15px;
+  line-height: 1.5em;
+}
+
+#side-dishes {
+  background-color: var(--aqua);
+}
+
+#side-dishes h2 {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 30px 0;
+}
+
+.dish {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.dish-info {
+  text-align: left;
+}
 
 
 
