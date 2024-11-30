@@ -117,9 +117,40 @@ body {
   background-color: var(--platinum);
 }
 
+#search-bar {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.search-container label {
+  display: none;
+}
+
+#search-input {
+  border: 2px solid var(--orange);
+  padding: 11px;
+  flex-grow: 1;
+}
+
+.search-container button {
+  background: var(--orange);
+  border: none;
+  cursor: pointer;
+}
+
+
 h1 {
   position: relative;
-  top: 120px;
+  top: 220px;
   font-size: 40px;
 }
 
@@ -213,6 +244,8 @@ h3 {
 .action {
   border: none;
 }
+
+
 
 
 
