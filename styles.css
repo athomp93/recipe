@@ -379,7 +379,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 #social ul li {
@@ -396,9 +396,21 @@ footer h2 {
   display: none;
 }
 
+#footer-content {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
 footer img {
   height: auto;
-  max-width: 3em;
+  max-width: 9em;
+  padding: 20px;
+}
+
+footer p {
+  font-weight: 700;
 }
 
 
