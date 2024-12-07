@@ -285,6 +285,7 @@ nav h2 {
 #details dt,
 #details dd {
   margin: 0;
+  white-space: nowrap;
 }
 
 #details dt {
@@ -295,6 +296,10 @@ nav h2 {
 
 #details dd {
   flex-basis: calc(70% - 10px);
+}
+
+#details dl::after {
+  flex: auto;
 }
 
 #ingredients h2 {
@@ -521,6 +526,60 @@ footer h2 {
     left: 70%;
   }
 
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #details {
+    max-width: 235px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #details dl {
+    gap: 0;
+  }
+  
+  #details dt,
+  #details dd {
+    white-space: nowrap;
+    padding-bottom: 10px;
+  }
+
+  #details dt {
+    flex: 0 0 30%;
+  }
+
+  #details dd {
+    flex: 0 0 55%;
+  }
+
+  #ing-dir {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  #ingredients {
+    max-width: 50%;
+  }
+
+  #ingredients h2 {
+    justify-content: left;
+    padding-left: 15px;
+  }
+
+  #directions {
+    max-width: 50%;
+  }
+
+  #ingredients, #directions {
+    flex: 1;
+  }
   
 
 }
