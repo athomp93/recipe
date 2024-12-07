@@ -470,12 +470,7 @@ footer h2 {
     display: none;
   }
 
-
-  main {
-    background-color: var(--white);
-  }
-  
-  header {
+  main, header {
     background-color: var(--white);
   }
 
@@ -526,6 +521,10 @@ footer h2 {
     left: 70%;
   }
 
+  .intro-text, .details-center, .ing-dir {
+    background-color: var(--platinum);
+  }
+
   .center-container {
     display: flex;
     justify-content: center;
@@ -536,6 +535,7 @@ footer h2 {
     max-width: 235px;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 1px;
   }
 
   #details dl {
@@ -556,29 +556,48 @@ footer h2 {
     flex: 0 0 55%;
   }
 
-  #ing-dir {
+  .ing-dir {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
-    gap: 20px;
   }
 
   #ingredients {
-    max-width: 50%;
+    max-width: 30%;
   }
 
   #ingredients h2 {
-    justify-content: left;
-    padding-left: 15px;
+    justify-content: center;
+    /* padding-left: 15px; */
   }
 
   #directions {
-    max-width: 50%;
+    max-width: 70%;
   }
 
   #ingredients, #directions {
     flex: 1;
+  }
+
+  .rice-salsa, .guac-tortilla {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #tortillas {
+    transform: translateX(-32px);
+  }
+
+  #social ul {
+    justify-content: right;
+    padding-top: 10px;
+    margin-right: 10px;
+  }
+
+  #social ul li {
+    padding: 15px;
   }
   
 
