@@ -333,7 +333,7 @@
       </dl>
     </section>
 
-    <nav id="main-nav">
+    <nav>
       <h2>MAIN NAVIGATION</h2>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" style="enable-background:new 0 0 40 40"
@@ -351,89 +351,91 @@
         <span>MENU</span>
       </button>
 
-      <ul id="nav-menu">
-        <li id="home">
-          <a href="#home">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="60"
-              height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+      <section id="nav-menu">
+        <ul>
+          <li id="home">
+            <a href="#home">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="60"
+                height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 3h8l-1 9h-6z" />
+                <path d="M7 18h2v3h-2z" />
+                <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
+                <path d="M20 15v6h-1v-3" />
+                <line x1="8" y1="12" x2="8" y2="18" />
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li id="food-drink">
+            <ul>
+              <li>
+                <a href="#breakfast">
+                  <img class="nav-img" src="images/breakfast.png" alt="Image of two fried eggs in a pan">
+                  <span>Breakfast</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#brunch">
+                  <img class="nav-img" src="images/brunch.png" alt="Image of friends gathered at a table of food and drinks">
+                  <span>Brunch</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#lunch">
+                  <img class="nav-img" src="images/lunch.png" alt="Image of a sandwich with meat, eggs, avocado, and lemon slice garnish">
+                  <span>Lunch</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#dinner">
+                  <img class="nav-img" src="images/dinner.png" alt="Image of roasted lamb surrounded by veggies, with a rosemary garnish">
+                  <span>Dinner</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#appetizers">
+                  <img class="nav-img" src="images/appetizers.png"
+                    alt="Image of a charcuterie board with cheeses, fruits, crackers, and honey">
+                  <span>Appetizers</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#desserts">
+                  <img class="nav-img" src="images/desserts.png"
+                    alt="Image of fruit tarts, topped with raspberries, blueberries, and cranberries">
+                  <span>Desserts</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#beverages">
+                  <img class="nav-img" src="images/beverages.png" alt="Image of a tropical orange drink with an orange slice for garnish">
+                  <span>Beverages</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li id="avatar">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40"
+              height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#eb5428" fill="none" stroke-linecap="round"
               stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M4 3h8l-1 9h-6z" />
-              <path d="M7 18h2v3h-2z" />
-              <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
-              <path d="M20 15v6h-1v-3" />
-              <line x1="8" y1="12" x2="8" y2="18" />
+              <circle cx="12" cy="12" r="9" />
+              <circle cx="12" cy="10" r="3" />
+              <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
             </svg>
-            <span>Home</span>
-          </a>
-        </li>
-        <li id="food-drink">
-          <ul>
-            <li>
-              <a href="#breakfast">
-                <img class="nav-img" src="images/breakfast.png" alt="Image of two fried eggs in a pan">
-                <span>Breakfast</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#brunch">
-                <img class="nav-img" src="images/brunch.png" alt="Image of friends gathered at a table of food and drinks">
-                <span>Brunch</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#lunch">
-                <img class="nav-img" src="images/lunch.png" alt="Image of a sandwich with meat, eggs, avocado, and lemon slice garnish">
-                <span>Lunch</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#dinner">
-                <img class="nav-img" src="images/dinner.png" alt="Image of roasted lamb surrounded by veggies, with a rosemary garnish">
-                <span>Dinner</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#appetizers">
-                <img class="nav-img" src="images/appetizers.png"
-                  alt="Image of a charcuterie board with cheeses, fruits, crackers, and honey">
-                <span>Appetizers</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#desserts">
-                <img class="nav-img" src="images/desserts.png"
-                  alt="Image of fruit tarts, topped with raspberries, blueberries, and cranberries">
-                <span>Desserts</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#beverages">
-                <img class="nav-img" src="images/beverages.png" alt="Image of a tropical orange drink with an orange slice for garnish">
-                <span>Beverages</span>
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li id="avatar">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40"
-            height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#eb5428" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <circle cx="12" cy="12" r="9" />
-            <circle cx="12" cy="10" r="3" />
-            <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
-          </svg>
-          <span class="sign-in-small">Sign In/Up</span>
-          <span class="sign-in-large">Sign In</span>
-        </li>
-      </ul>
+            <span class="sign-in-small">Sign In/Up</span>
+            <span class="sign-in-large">Sign In</span>
+          </li>
+        </ul>
+      </section>
     </nav>
 
     <form id="search-bar" role="search" onsubmit="return false;">
